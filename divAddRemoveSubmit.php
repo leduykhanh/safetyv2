@@ -504,7 +504,7 @@ alert(attrName);
                               </label>
                             </div>
                             <div class="col-sm-6">
-                              <label class="col-sm-4 compulsary">Expiry Date:</label>
+                              <label class="col-sm-4 compulsary">Next Review Date:</label>
                               <select  name="expiry_date">
                                 <option value="1" selected>1</option>
                                 <option value="2" >2</option>
@@ -572,7 +572,7 @@ alert(attrName);
                     <div class="col-sm-12">
                         <hr class="add_risk" />
                         <div class="col-sm-12 form-row">
-                            <label class="col-sm-3">Work Activity Name:</label>
+                            <label class="col-sm-3">Work Activity:</label>
                             <input class="col-sm-8" type="text" id="inputSaving" name="work_activity[]" value="" placeholder="" required>
                         </div>
                        <div class="clearfix"></div>
@@ -815,7 +815,7 @@ alert(attrName);
                     <div class="col-sm-12">
                         <hr class="add_risk" />
                         <div class="col-sm-12 form-row">
-                            <label class="col-sm-3" >Work Activity Name:</label>
+                            <label class="col-sm-3" >Work Activity :</label>
                             <input class="col-sm-8" type="text" id="inputSaving" name="work_activity[]" value="" placeholder="" required>
                         </div>
                        <div class="clearfix"></div>

@@ -16,7 +16,7 @@
                     <div class="col-sm-12">
                         <hr class="add_risk" />
                         <div class="col-sm-12 form-row">
-                            <label class="col-sm-3" style="padding-left:0px;">Work Activity Name:</label>
+                            <label class="col-sm-3" style="padding-left:0px;">Work Activity:</label>
                             <input class="col-sm-8" type="text" id="inputSaving" name="work_activity[]" value="" placeholder="" required>
                         </div>
                        <div class="clearfix"></div>

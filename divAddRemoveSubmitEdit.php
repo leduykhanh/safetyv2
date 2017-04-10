@@ -170,7 +170,7 @@ else
                               </div>
                             </div>
                             <div class="col-sm-6">
-                              <label class="col-sm-4 compulsary">Expiry Date:</label>
+                              <label class="col-sm-4 compulsary">Next Review Date:</label>
                               <select  name="expiry_date">
                                 <option value="1" <?php echo $valueRisk['expiry_date']==1?"selected":"";?>>1</option>
                                 <option value="2" <?php echo $valueRisk['expiry_date']==2?"selected":"";?>>2</option>
@@ -283,7 +283,7 @@ while($valueAllWork = mysqli_fetch_assoc($resultAllWork))
                         <div class="row">
                         <div class="col-sm-12 form-row">
                         <div class="row">
-                            <label class="col-sm-3" style="padding-left:29px;">Work Activity Name:</label>
+                            <label class="col-sm-3" style="padding-left:29px;">Work Activity :</label>
                             <input class="col-sm-8" type="text" id="inputSaving" name="work_activity[]" value="<?php echo $valueAllWork['name'];?>" placeholder="" style="margin-left:9px;" required>
                         </div>
                         </div>
